@@ -19,7 +19,7 @@ double OMTFAnalyzer::calibratedPt(const std::string & sysType, const L1Obj & aCa
   double value = aCand.ptValue();
   if(sysType=="OMTFDispU") value = aCand.ptUnconstrainedValue();  
   else if(sysType=="OMTFDisp") value = std::max(aCand.ptUnconstrainedValue(), aCand.ptValue());  
-  else if(sysType=="NN") value = aCand.ptValue();
+  else if(sysType=="NN") value = 1.14*aCand.ptValue();
   
   return value;
 }
@@ -94,8 +94,9 @@ bool OMTFAnalyzer::passQuality(const L1Obj & aL1Cand,
   bool qualitySelection = aL1Cand.q>=12 && aL1Cand.bx==0;     
   
   if(sysType=="OMTF") qualitySelection &= (aL1Cand.type==L1Obj::OMTF_emu);
-  else if(sysType=="Masked")  qualitySelection &= aL1Cand.type==L1Obj::BMTF;
-  else if(sysType.find("Vx")!=std::string::npos) qualitySelection = true;
+     else if(sysType=="NN")  qualitySelection &= aL1Cand.type==L1Obj::EMTF;
+     else if(sysType=="LUT") qualitySelection = aL1Cand.q>=8 && aL1Cand.bx==0 && aL1Cand.type==L1Obj::BMTF;
+     else if(sysType.find("Vx")!=std::string::npos) qualitySelection = true;
 
   return qualitySelection;
 }

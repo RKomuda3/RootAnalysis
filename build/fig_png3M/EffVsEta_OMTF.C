@@ -1,0 +1,238 @@
+#ifdef __CLING__
+#pragma cling optimize(0)
+#endif
+void EffVsEta_OMTF()
+{
+//=========Macro generated from canvas: EffVsEta_OMTF/EffVsEta_OMTF
+//=========  (Mon Apr  8 12:43:46 2024) by ROOT version 6.26/04
+   TCanvas *EffVsEta_OMTF = new TCanvas("EffVsEta_OMTF", "EffVsEta_OMTF",0,0,800,500);
+   gStyle->SetOptFit(1);
+   gStyle->SetOptStat(0);
+   gStyle->SetOptTitle(0);
+   EffVsEta_OMTF->SetHighLightColor(2);
+   EffVsEta_OMTF->Range(0.7554545,-0.1823377,1.500909,1.168312);
+   EffVsEta_OMTF->SetFillColor(0);
+   EffVsEta_OMTF->SetBorderMode(0);
+   EffVsEta_OMTF->SetBorderSize(2);
+   EffVsEta_OMTF->SetGridy();
+   EffVsEta_OMTF->SetTickx(1);
+   EffVsEta_OMTF->SetTicky(1);
+   EffVsEta_OMTF->SetRightMargin(0.35);
+   EffVsEta_OMTF->SetBottomMargin(0.135);
+   EffVsEta_OMTF->SetFrameFillStyle(4000);
+   EffVsEta_OMTF->SetFrameBorderMode(0);
+   EffVsEta_OMTF->SetFrameBorderSize(0);
+   EffVsEta_OMTF->SetFrameFillStyle(4000);
+   EffVsEta_OMTF->SetFrameBorderMode(0);
+   EffVsEta_OMTF->SetFrameBorderSize(0);
+   
+   TH1F *hFrame__1 = new TH1F("hFrame__1","",1,0.83,1.24);
+   hFrame__1->SetMinimum(0);
+   hFrame__1->SetMaximum(1.04);
+   hFrame__1->SetDirectory(0);
+   hFrame__1->SetStats(0);
+   hFrame__1->GetXaxis()->SetTitle("generated muon #eta");
+   hFrame__1->GetXaxis()->SetLabelFont(42);
+   hFrame__1->GetXaxis()->SetLabelOffset(0.004);
+   hFrame__1->GetXaxis()->SetLabelSize(0.05);
+   hFrame__1->GetXaxis()->SetTitleSize(0.05);
+   hFrame__1->GetXaxis()->SetTitleOffset(1.25);
+   hFrame__1->GetXaxis()->SetTitleFont(42);
+   hFrame__1->GetYaxis()->SetTitle("Efficiency");
+   hFrame__1->GetYaxis()->SetLabelFont(42);
+   hFrame__1->GetYaxis()->SetLabelOffset(0.014);
+   hFrame__1->GetYaxis()->SetLabelSize(0.05);
+   hFrame__1->GetYaxis()->SetTitleSize(0.05);
+   hFrame__1->GetYaxis()->SetTitleOffset(1);
+   hFrame__1->GetYaxis()->SetTitleFont(42);
+   hFrame__1->GetZaxis()->SetLabelFont(42);
+   hFrame__1->GetZaxis()->SetTitleOffset(1);
+   hFrame__1->GetZaxis()->SetTitleFont(42);
+   hFrame__1->Draw("");
+   
+   TEfficiency * hDenom_clone1 = new TEfficiency("hDenom_clone","",10,0.83,1.24);
+   
+   hDenom_clone1->SetConfidenceLevel(0.6826895);
+   hDenom_clone1->SetBetaAlpha(1);
+   hDenom_clone1->SetBetaBeta(1);
+   hDenom_clone1->SetWeight(1);
+   hDenom_clone1->SetStatisticOption(0);
+   hDenom_clone1->SetPosteriorMode(0);
+   hDenom_clone1->SetShortestInterval(0);
+   hDenom_clone1->SetTotalEvents(0,0);
+   hDenom_clone1->SetPassedEvents(0,0);
+   hDenom_clone1->SetTotalEvents(1,123074);
+   hDenom_clone1->SetPassedEvents(1,119234);
+   hDenom_clone1->SetTotalEvents(2,122522);
+   hDenom_clone1->SetPassedEvents(2,120278);
+   hDenom_clone1->SetTotalEvents(3,123300);
+   hDenom_clone1->SetPassedEvents(3,119998);
+   hDenom_clone1->SetTotalEvents(4,122998);
+   hDenom_clone1->SetPassedEvents(4,120056);
+   hDenom_clone1->SetTotalEvents(5,123008);
+   hDenom_clone1->SetPassedEvents(5,121746);
+   hDenom_clone1->SetTotalEvents(6,122342);
+   hDenom_clone1->SetPassedEvents(6,120942);
+   hDenom_clone1->SetTotalEvents(7,122540);
+   hDenom_clone1->SetPassedEvents(7,119956);
+   hDenom_clone1->SetTotalEvents(8,122866);
+   hDenom_clone1->SetPassedEvents(8,118492);
+   hDenom_clone1->SetTotalEvents(9,123054);
+   hDenom_clone1->SetPassedEvents(9,116332);
+   hDenom_clone1->SetTotalEvents(10,123240);
+   hDenom_clone1->SetPassedEvents(10,105544);
+   hDenom_clone1->SetTotalEvents(11,0);
+   hDenom_clone1->SetPassedEvents(11,0);
+   hDenom_clone1->SetFillColor(19);
+   hDenom_clone1->SetMarkerStyle(21);
+   hDenom_clone1->Draw("same p");
+   
+   TEfficiency * hDenom_clone2 = new TEfficiency("hDenom_clone","",10,0.83,1.24);
+   
+   hDenom_clone2->SetConfidenceLevel(0.6826895);
+   hDenom_clone2->SetBetaAlpha(1);
+   hDenom_clone2->SetBetaBeta(1);
+   hDenom_clone2->SetWeight(1);
+   hDenom_clone2->SetStatisticOption(0);
+   hDenom_clone2->SetPosteriorMode(0);
+   hDenom_clone2->SetShortestInterval(0);
+   hDenom_clone2->SetTotalEvents(0,0);
+   hDenom_clone2->SetPassedEvents(0,0);
+   hDenom_clone2->SetTotalEvents(1,29468);
+   hDenom_clone2->SetPassedEvents(1,25224);
+   hDenom_clone2->SetTotalEvents(2,29194);
+   hDenom_clone2->SetPassedEvents(2,25712);
+   hDenom_clone2->SetTotalEvents(3,28694);
+   hDenom_clone2->SetPassedEvents(3,24420);
+   hDenom_clone2->SetTotalEvents(4,29246);
+   hDenom_clone2->SetPassedEvents(4,26446);
+   hDenom_clone2->SetTotalEvents(5,29154);
+   hDenom_clone2->SetPassedEvents(5,26724);
+   hDenom_clone2->SetTotalEvents(6,29114);
+   hDenom_clone2->SetPassedEvents(6,27570);
+   hDenom_clone2->SetTotalEvents(7,28800);
+   hDenom_clone2->SetPassedEvents(7,26896);
+   hDenom_clone2->SetTotalEvents(8,28778);
+   hDenom_clone2->SetPassedEvents(8,26370);
+   hDenom_clone2->SetTotalEvents(9,29142);
+   hDenom_clone2->SetPassedEvents(9,25236);
+   hDenom_clone2->SetTotalEvents(10,29072);
+   hDenom_clone2->SetPassedEvents(10,20346);
+   hDenom_clone2->SetTotalEvents(11,0);
+   hDenom_clone2->SetPassedEvents(11,0);
+   hDenom_clone2->SetFillColor(19);
+
+   Int_t ci;      // for color index setting
+   TColor *color; // for color definition with alpha
+   ci = TColor::GetColor("#0000ff");
+   hDenom_clone2->SetMarkerColor(ci);
+   hDenom_clone2->SetMarkerStyle(22);
+   hDenom_clone2->Draw("same p");
+   
+   TEfficiency * hDenom_clone3 = new TEfficiency("hDenom_clone","",10,0.83,1.24);
+   
+   hDenom_clone3->SetConfidenceLevel(0.6826895);
+   hDenom_clone3->SetBetaAlpha(1);
+   hDenom_clone3->SetBetaBeta(1);
+   hDenom_clone3->SetWeight(1);
+   hDenom_clone3->SetStatisticOption(1);
+   hDenom_clone3->SetPosteriorMode(0);
+   hDenom_clone3->SetShortestInterval(0);
+   hDenom_clone3->SetUseWeightedEvents();
+   hDenom_clone3->SetTotalEvents(0,0);
+   hDenom_clone3->SetPassedEvents(0,0);
+   hDenom_clone3->SetTotalEvents(1,276400);
+   hDenom_clone3->SetPassedEvents(1,7100);
+   hDenom_clone3->SetTotalEvents(2,272708);
+   hDenom_clone3->SetPassedEvents(2,3100);
+   hDenom_clone3->SetTotalEvents(3,270242);
+   hDenom_clone3->SetPassedEvents(3,2700);
+   hDenom_clone3->SetTotalEvents(4,275702);
+   hDenom_clone3->SetPassedEvents(4,8000);
+   hDenom_clone3->SetTotalEvents(5,297018);
+   hDenom_clone3->SetPassedEvents(5,29000);
+   hDenom_clone3->SetTotalEvents(6,330740);
+   hDenom_clone3->SetPassedEvents(6,62900);
+   hDenom_clone3->SetTotalEvents(7,317036);
+   hDenom_clone3->SetPassedEvents(7,50000);
+   hDenom_clone3->SetTotalEvents(8,340862);
+   hDenom_clone3->SetPassedEvents(8,73700);
+   hDenom_clone3->SetTotalEvents(9,386590);
+   hDenom_clone3->SetPassedEvents(9,120600);
+   hDenom_clone3->SetTotalEvents(10,361150);
+   hDenom_clone3->SetPassedEvents(10,94700);
+   hDenom_clone3->SetTotalEvents(11,0);
+   hDenom_clone3->SetPassedEvents(11,0);
+   hDenom_clone3->SetFillColor(19);
+
+   ci = TColor::GetColor("#ff0000");
+   hDenom_clone3->SetMarkerColor(ci);
+   hDenom_clone3->SetMarkerStyle(23);
+   hDenom_clone3->Draw("same p");
+   TLine *line = new TLine(0.83,0,0.83,1);
+   line->SetLineColor(2);
+   line->SetLineWidth(2);
+   line->Draw();
+   line = new TLine(-0.83,0,-0.83,1);
+   line->SetLineColor(2);
+   line->SetLineWidth(2);
+   line->Draw();
+   line = new TLine(1.24,0,1.24,1);
+   line->SetLineColor(2);
+   line->SetLineWidth(2);
+   line->Draw();
+   line = new TLine(-1.24,0,-1.24,1);
+   line->SetLineColor(2);
+   line->SetLineWidth(2);
+   line->Draw();
+   
+   TLegend *leg = new TLegend(0.6915995,0.5930233,0.7422325,0.8972868,NULL,"brNDC");
+   leg->SetBorderSize(0);
+   leg->SetTextFont(62);
+   leg->SetTextSize(0.05);
+   leg->SetLineColor(1);
+   leg->SetLineStyle(1);
+   leg->SetLineWidth(1);
+   leg->SetFillColor(10);
+   leg->SetFillStyle(4000);
+   TLegendEntry *entry=leg->AddEntry("NULL","p_{T}^{cut} = 22  GeV/c","h");
+   entry->SetLineColor(1);
+   entry->SetLineStyle(1);
+   entry->SetLineWidth(1);
+   entry->SetMarkerColor(1);
+   entry->SetMarkerStyle(21);
+   entry->SetMarkerSize(1);
+   entry->SetTextFont(62);
+   entry=leg->AddEntry("hDenom_clone","p_{T}^{#mu}>p_{T}^{cut} + 20 GeV/c","lp");
+   entry->SetLineColor(1);
+   entry->SetLineStyle(1);
+   entry->SetLineWidth(1);
+   entry->SetMarkerColor(1);
+   entry->SetMarkerStyle(21);
+   entry->SetMarkerSize(1);
+   entry->SetTextFont(62);
+   entry=leg->AddEntry("hDenom_clone","p_{T}^{cut}<p_{T}^{#mu}<#dot p_{T}^{cut} + 5 GeV/c","lp");
+   entry->SetLineColor(1);
+   entry->SetLineStyle(1);
+   entry->SetLineWidth(1);
+
+   ci = TColor::GetColor("#0000ff");
+   entry->SetMarkerColor(ci);
+   entry->SetMarkerStyle(22);
+   entry->SetMarkerSize(1);
+   entry->SetTextFont(62);
+   entry=leg->AddEntry("hDenom_clone","p_{T}^{#mu}<10 GeV/c (#epsilon #times 50)","lp");
+   entry->SetLineColor(1);
+   entry->SetLineStyle(1);
+   entry->SetLineWidth(1);
+
+   ci = TColor::GetColor("#ff0000");
+   entry->SetMarkerColor(ci);
+   entry->SetMarkerStyle(23);
+   entry->SetMarkerSize(1);
+   entry->SetTextFont(62);
+   leg->Draw();
+   EffVsEta_OMTF->Modified();
+   EffVsEta_OMTF->cd();
+   EffVsEta_OMTF->SetSelected(EffVsEta_OMTF);
+}

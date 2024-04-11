@@ -36,7 +36,7 @@ private:
   TH1* Integrate(TH1 * histoD);
 
   void plotEffPanel(const std::string & sysType, const std::string & varName);
-
+  void plotEffRK(const std::string & sysType, const std::string & varName, float ptCut1);
   void plotEffVsEta(const std::string & sysType);
 
   void plotEffVsVar(const std::string & sysType,
@@ -53,9 +53,9 @@ private:
   void plotSingleHistogram(std::string hName);
 
   double vxMuRate(double pt_GeV) const;
-  TH2F* makeRateWeights(TH2 *hOrig, const std::string & flavour);
-  TH1* getRateHisto(std::string sysType = "Vx", std::string type = "Tot");
-  void plotRate(std::string type);
+  TH2F* makeRateWeights(TH2 *hOrig, const std::string & flavour,bool norm_type);
+  TH1* getRateHisto(std::string sysType = "Vx", std::string type = "Tot",bool norm_type=0);
+  void plotRate(std::string type,bool norm_type);
     
   TEfficiency * getEfficiency(const std::string & hName);
  

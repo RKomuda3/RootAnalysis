@@ -1,0 +1,5 @@
+/home/rkomuda/CMS/Phase2/RootAnalysis/build/lib/libFrameworkCore.so
+/home/rkomuda/CMS/Phase2/RootAnalysis/build/lib/libOMTFDataFormats.so
+/home/rkomuda/CMS/Phase2/RootAnalysis/build/lib/libOMTFAnalysis.so
+/home/rkomuda/CMS/Phase2/RootAnalysis/build/bin/omtfAnalysis
+/home/rkomuda/CMS/Phase2/RootAnalysis/build/config/omtf_emulator.ini

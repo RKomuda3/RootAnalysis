@@ -1,0 +1,924 @@
+Error in <TCling::LoadPCM>: ROOT PCM /home/rkomuda/CMS/Phase2/RootAnalysis/build/lib/libOMTFObjects_rdict.pcm file does not exist
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libASImageGui_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libASImage_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libEG_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libEve_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libFFTW_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libFITSIO_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libFitPanel_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libFumili_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libGX11TTF_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libGX11_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libGdml_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libGed_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libGenVector_G__GenVector32_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libGenVector_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libGenetic_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libGeomBuilder_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libGeomPainter_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libGeom_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libGpad_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libGraf3d_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libGuiBld_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libGuiHtml_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libGui_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libGviz3d_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libHbook_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libHistFactory_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libHistPainter_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libHtml_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libMLP_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libMathMore_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libNetxNG_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libOracle_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libPhysics_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libPostscript_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libProofBench_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libProofDraw_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libProofPlayer_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libProof_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libPyMVA_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libQuadp_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libRCsg_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libRDAVIX_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libRGL_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libRHTTPSniff_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libRHTTP_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libRMySQL_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libROOTBrowsable_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libROOTBrowserv7_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libROOTDataFrame_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libROOTEve_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libROOTFitPanelv7_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libROOTGpadv7_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libROOTGraphicsPrimitives_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libROOTHistDraw_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libROOTHist_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libROOTTMVASofieParser_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libROOTTMVASofie_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libROOTTPython_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libROOTWebDisplay_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libRSQLite_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libRecorder_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libRooFitCore_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libRooFitHS3_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libRooFitMore_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libRooFitRDataFrameHelpers_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libRooFit_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libRooStats_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libRootAuth_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libSPlot_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libSQLIO_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libSessionViewer_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libSpectrumPainter_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libSpectrum_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libTMVAGui_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libTMVA_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libTreePlayer_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libTreeViewer_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libTree_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libUnfold_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libUnuran_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libWebGui6_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libX3d_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libXMLIO_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libXMLParser_rdict.pcm
+
+
+[1mRooFit v3.60 -- Developed by Wouter Verkerke and David Kirkby[0m 
+                Copyright (C) 2000-2013 NIKHEF, University of California & Stanford University
+                All rights reserved, please read http://roofit.sourceforge.net/license.txt
+
+Start
+Reading files: 
+/home/rkomuda/CMS/Phase2/analysis_GMT/omtfTree1.root
+Warning in <TClass::Init>: no dictionary for class MuonObjColl is available
+Warning in <TClass::Init>: no dictionary for class MuonObj is available
+Warning in <TClass::Init>: no dictionary for class TrackObj is available
+Warning in <TClass::Init>: no dictionary for class TriggerMenuResultObj is available
+Warning in <TClass::Init>: no dictionary for class SynchroCountsObjVect is available
+Warning in <TClass::Init>: no dictionary for class SynchroCountsObj is available
+Error in <TList::Clear>: A list is accessing an object (0x3eb9400) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x3f48210) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x3f48640) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x3f54310) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x3f54680) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x3f54af0) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x3f54f90) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x3f55360) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x3f55800) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x3f55a30) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x3f7c360) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x3f85ce0) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x3f866d0) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x3f86b30) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x3f87b70) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x3f95f30) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x3f96d70) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x3f972c0) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x3f975f0) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x3f97e40) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x3f98280) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x3f99490) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x3f99ab0) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x3f99ef0) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x3f9ac20) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x3f9b200) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x3f9c1a0) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x3f9c710) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x3f9cbe0) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x3f9d4d0) already deleted (list name = TList)
+Error in <THashList::Delete>: A list is accessing an object (0x4cf8340) already deleted (list name = THashList)
+Error in <TChain::SetBranchAddress>: unknown branch -> hits
+Error in <TChain::SetBranchAddress>: unknown branch -> hitsQuality
+Error in <THashList::Delete>: A list is accessing an object (0x5a62870) already deleted (list name = THashList)
+Error in <TChain::SetBranchAddress>: unknown branch -> hits
+Error in <TChain::SetBranchAddress>: unknown branch -> hitsQuality
+Events total: 3988000
+Events analyzed: 0/3988000 (0) thread: 0
+Events analyzed: 1/3988000 (2.50752e-07) thread: 0
+Events analyzed: 2/3988000 (5.01505e-07) thread: 0
+Events analyzed: 3/3988000 (7.52257e-07) thread: 0
+Events analyzed: 4/3988000 (1.00301e-06) thread: 0
+Events analyzed: 5/3988000 (1.25376e-06) thread: 0
+Events analyzed: 6/3988000 (1.50451e-06) thread: 0
+Events analyzed: 7/3988000 (1.75527e-06) thread: 0
+Events analyzed: 8/3988000 (2.00602e-06) thread: 0
+Events analyzed: 9/3988000 (2.25677e-06) thread: 0
+Error in <TCling::LoadPCM>: ROOT PCM /home/rkomuda/CMS/Phase2/RootAnalysis/build/lib/libOMTFObjects_rdict.pcm file does not exist
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libASImageGui_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libASImage_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libEG_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libEve_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libFFTW_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libFITSIO_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libFitPanel_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libFumili_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libGX11TTF_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libGX11_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libGdml_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libGed_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libGenVector_G__GenVector32_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libGenVector_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libGenetic_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libGeomBuilder_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libGeomPainter_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libGeom_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libGpad_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libGraf3d_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libGuiBld_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libGuiHtml_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libGui_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libGviz3d_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libHbook_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libHistFactory_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libHistPainter_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libHtml_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libMLP_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libMathMore_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libNetxNG_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libOracle_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libPhysics_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libPostscript_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libProofBench_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libProofDraw_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libProofPlayer_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libProof_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libPyMVA_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libQuadp_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libRCsg_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libRDAVIX_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libRGL_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libRHTTPSniff_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libRHTTP_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libRMySQL_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libROOTBrowsable_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libROOTBrowserv7_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libROOTDataFrame_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libROOTEve_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libROOTFitPanelv7_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libROOTGpadv7_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libROOTGraphicsPrimitives_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libROOTHistDraw_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libROOTHist_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libROOTTMVASofieParser_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libROOTTMVASofie_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libROOTTPython_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libROOTWebDisplay_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libRSQLite_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libRecorder_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libRooFitCore_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libRooFitHS3_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libRooFitMore_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libRooFitRDataFrameHelpers_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libRooFit_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libRooStats_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libRootAuth_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libSPlot_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libSQLIO_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libSessionViewer_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libSpectrumPainter_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libSpectrum_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libTMVAGui_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libTMVA_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libTreePlayer_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libTreeViewer_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libTree_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libUnfold_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libUnuran_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libWebGui6_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libX3d_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libXMLIO_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libXMLParser_rdict.pcm
+
+
+[1mRooFit v3.60 -- Developed by Wouter Verkerke and David Kirkby[0m 
+                Copyright (C) 2000-2013 NIKHEF, University of California & Stanford University
+                All rights reserved, please read http://roofit.sourceforge.net/license.txt
+
+Start
+Reading files: 
+/home/rkomuda/CMS/Phase2/analysis_GMT/omtfTree1.root
+Warning in <TClass::Init>: no dictionary for class MuonObjColl is available
+Warning in <TClass::Init>: no dictionary for class MuonObj is available
+Warning in <TClass::Init>: no dictionary for class TrackObj is available
+Warning in <TClass::Init>: no dictionary for class TriggerMenuResultObj is available
+Warning in <TClass::Init>: no dictionary for class SynchroCountsObjVect is available
+Warning in <TClass::Init>: no dictionary for class SynchroCountsObj is available
+Error in <TList::Clear>: A list is accessing an object (0x3cab140) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x3e01b70) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x3e01fa0) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x3e0dc70) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x3e0dfe0) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x3e0e450) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x3e0e8f0) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x3e0ecc0) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x3e0f160) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x3e0f390) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x3e35ed0) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x3e3f850) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x3e40240) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x3e406a0) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x3e416e0) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x3e4faa0) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x3e508e0) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x3e50e30) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x3e51160) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x3e519b0) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x3e51df0) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x3e53000) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x3e53620) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x3e53a60) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x3e54790) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x3e54d70) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x3e55d10) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x3e56280) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x3e56750) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x3e57040) already deleted (list name = TList)
+Error in <THashList::Delete>: A list is accessing an object (0x4bb14f0) already deleted (list name = THashList)
+Error in <TChain::SetBranchAddress>: unknown branch -> hits
+Error in <TChain::SetBranchAddress>: unknown branch -> hitsQuality
+Error in <THashList::Delete>: A list is accessing an object (0x591b650) already deleted (list name = THashList)
+Error in <TChain::SetBranchAddress>: unknown branch -> hits
+Error in <TChain::SetBranchAddress>: unknown branch -> hitsQuality
+Events total: 3988000
+Events analyzed: 0/3988000 (0) thread: 0
+Events analyzed: 1/3988000 (2.50752e-07) thread: 0
+Events analyzed: 2/3988000 (5.01505e-07) thread: 0
+Events analyzed: 3/3988000 (7.52257e-07) thread: 0
+Events analyzed: 4/3988000 (1.00301e-06) thread: 0
+Events analyzed: 5/3988000 (1.25376e-06) thread: 0
+Events analyzed: 6/3988000 (1.50451e-06) thread: 0
+Events analyzed: 7/3988000 (1.75527e-06) thread: 0
+Events analyzed: 8/3988000 (2.00602e-06) thread: 0
+Events analyzed: 9/3988000 (2.25677e-06) thread: 0
+Events analyzed: 398800/3988000 (0.1) thread: 0
+Events analyzed: 797600/3988000 (0.2) thread: 0
+Events analyzed: 1196400/3988000 (0.3) thread: 0
+Events analyzed: 1595200/3988000 (0.4) thread: 0
+Events analyzed: 1994000/3988000 (0.5) thread: 0
+Events analyzed: 2392800/3988000 (0.6) thread: 0
+Events analyzed: 2791600/3988000 (0.7) thread: 0
+Events analyzed: 3190400/3988000 (0.8) thread: 0
+Events analyzed: 3589200/3988000 (0.9) thread: 0
+1D histogram size: 7
+2D histogram size: 1271
+3D histogram size: 0
+TProfile size: 0
+Define l1RpcStyle.....done
+Info in <TCanvas::Print>: eps file fig_eps/OMTFVsMasked_22_PhiVx.eps has been created
+Info in <TCanvas::Print>: png file fig_png/OMTFVsMasked_22_PhiVx.png has been created
+Info in <TCanvas::Print>: eps file fig_eps/OMTFVsMasked_22_PhiVx_log.eps has been created
+Info in <TCanvas::Print>: png file fig_png/OMTFVsMasked_22_PhiVx_log.png has been created
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: OMTFVsOther_22
+Info in <TCanvas::Print>: eps file fig_eps/OMTFVsMasked_22_EtaVx.eps has been created
+Info in <TCanvas::Print>: png file fig_png/OMTFVsMasked_22_EtaVx.png has been created
+Info in <TCanvas::Print>: eps file fig_eps/OMTFVsMasked_22_EtaVx_log.eps has been created
+Info in <TCanvas::Print>: png file fig_png/OMTFVsMasked_22_EtaVx_log.png has been created
+Info in <TCanvas::Print>: png file fig_png/PanelVsPt_OMTF.png has been created
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: EffVsPt_OMTF
+Info in <TCanvas::Print>: png file fig_png/PanelVsHighPt_OMTF.png has been created
+Info in <TCanvas::Print>: eps file fig_eps/EffVsEtaVx_OMTF.eps has been created
+Info in <TCanvas::Print>: png file fig_png/EffVsEtaVx_OMTF.png has been created
+Info in <TCanvas::Print>: eps file fig_eps/EffVsPhiVx_OMTF.eps has been created
+Info in <TCanvas::Print>: png file fig_png/EffVsPhiVx_OMTF.png has been created
+Info in <TEfficiency::TEfficiency>: given histograms are filled with weights
+Info in <TROOT::TEfficiency::SetUseWeightedEvents>: Handle weighted events for computing efficiency
+Warning in <TEfficiency::GetEfficiencyErrorLow>: frequentist confidence intervals for weights are only supported by the normal approximation
+Info in <TEfficiency::GetEfficiencyErrorLow>: setting statistic option to kFNormal
+Info in <TCanvas::Print>: png file fig_png/EffVsEta_OMTF.png has been created
+Info in <TCanvas::SaveSource>: C++ Macro file: fig_png/EffVsEta_OMTF.C has been generated
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: OMTFVsOther_22
+ERROR: Histogram: h2DMaskedType0OMTF22 not found in thread: 0
+ERROR: Histogram: h2DMaskedType0OMTF26 not found in thread: 0
+Info in <TCanvas::Print>: png file fig_png/PanelVsPt_Masked.png has been created
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: EffVsPt_Masked
+Info in <TCanvas::Print>: png file fig_png/PanelVsHighPt_Masked.png has been created
+Info in <TCanvas::Print>: eps file fig_eps/EffVsEtaVx_Masked.eps has been created
+Info in <TCanvas::Print>: png file fig_png/EffVsEtaVx_Masked.png has been created
+Info in <TCanvas::Print>: eps file fig_eps/EffVsPhiVx_Masked.eps has been created
+Info in <TCanvas::Print>: png file fig_png/EffVsPhiVx_Masked.png has been created
+Info in <TEfficiency::TEfficiency>: given histograms are filled with weights
+Info in <TROOT::TEfficiency::SetUseWeightedEvents>: Handle weighted events for computing efficiency
+Warning in <TEfficiency::GetEfficiencyErrorLow>: frequentist confidence intervals for weights are only supported by the normal approximation
+Info in <TEfficiency::GetEfficiencyErrorLow>: setting statistic option to kFNormal
+Info in <TCanvas::Print>: png file fig_png/EffVsEta_Masked.png has been created
+Info in <TCanvas::SaveSource>: C++ Macro file: fig_png/EffVsEta_Masked.C has been generated
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: OMTFVsOther_22
+ERROR: Histogram: h2DLUTType0OMTF22 not found in thread: 0
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: OMTFVsOther_26
+ERROR: Histogram: h2DLUTType0OMTF26 not found in thread: 0
+Info in <TCanvas::Print>: png file fig_png/PanelVsPt_LUT.png has been created
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: EffVsPt_LUT
+Info in <TCanvas::Print>: png file fig_png/PanelVsHighPt_LUT.png has been created
+Info in <TCanvas::Print>: eps file fig_eps/EffVsEtaVx_LUT.eps has been created
+Info in <TCanvas::Print>: png file fig_png/EffVsEtaVx_LUT.png has been created
+Info in <TCanvas::Print>: eps file fig_eps/EffVsPhiVx_LUT.eps has been created
+Info in <TCanvas::Print>: png file fig_png/EffVsPhiVx_LUT.png has been created
+Info in <TEfficiency::TEfficiency>: given histograms are filled with weights
+Info in <TROOT::TEfficiency::SetUseWeightedEvents>: Handle weighted events for computing efficiency
+Warning in <TEfficiency::GetEfficiencyErrorLow>: frequentist confidence intervals for weights are only supported by the normal approximation
+Info in <TEfficiency::GetEfficiencyErrorLow>: setting statistic option to kFNormal
+Info in <TCanvas::Print>: png file fig_png/EffVsEta_LUT.png has been created
+Info in <TCanvas::SaveSource>: C++ Macro file: fig_png/EffVsEta_LUT.C has been generated
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: OMTFVsOther_22
+ERROR: Histogram: h2DNNType0OMTF22 not found in thread: 0
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: OMTFVsOther_26
+ERROR: Histogram: h2DNNType0OMTF26 not found in thread: 0
+Info in <TCanvas::Print>: png file fig_png/PanelVsPt_NN.png has been created
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: EffVsPt_NN
+Info in <TCanvas::Print>: png file fig_png/PanelVsHighPt_NN.png has been created
+Info in <TCanvas::Print>: eps file fig_eps/EffVsEtaVx_NN.eps has been created
+Info in <TCanvas::Print>: png file fig_png/EffVsEtaVx_NN.png has been created
+Info in <TCanvas::Print>: eps file fig_eps/EffVsPhiVx_NN.eps has been created
+Info in <TCanvas::Print>: png file fig_png/EffVsPhiVx_NN.png has been created
+Info in <TEfficiency::TEfficiency>: given histograms are filled with weights
+Info in <TROOT::TEfficiency::SetUseWeightedEvents>: Handle weighted events for computing efficiency
+Warning in <TEfficiency::GetEfficiencyErrorLow>: frequentist confidence intervals for weights are only supported by the normal approximation
+Info in <TEfficiency::GetEfficiencyErrorLow>: setting statistic option to kFNormal
+Info in <TCanvas::Print>: png file fig_png/EffVsEta_NN.png has been created
+Info in <TCanvas::SaveSource>: C++ Macro file: fig_png/EffVsEta_NN.C has been generated
+Rate [kHz] OMTF CMSSW default @ 22 GeV 2.65255
+Rate [kHz] Masked @ 22 GeV 1.81019
+Info in <TCanvas::Print>: eps file fig_eps/RateTot.eps has been created
+Info in <TCanvas::Print>: png file fig_png/RateTot.png has been created
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: cRate
+Info in <TCanvas::Print>: eps file fig_eps/RateVsEta.eps has been created
+Info in <TCanvas::Print>: png file fig_png/RateVsEta.png has been created
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: cRate
+Info in <TCanvas::Print>: eps file fig_eps/RateVsPt.eps has been created
+Info in <TCanvas::Print>: png file fig_png/RateVsPt.png has been created
+Info in <TCanvas::Print>: png file fig_png/PanelVsPt_RKeff.png has been created
+Analysed events: 3988000 
+RealTime=2339.512420 seconds, CpuTime=2327.900000 seconds
+1704.63 events / RealTime second .
+1713.13 events / CpuTime second .
+TreeAnalyzer::~TreeAnalyzer() Begin
+Error in <TList::Clear>: A list is accessing an object (0x3e0e450) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x3e0e8f0) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x3e0ecc0) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x3e0f160) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x3e0f390) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x3e35ed0) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x3e3f850) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x3e40240) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x3e406a0) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x3e416e0) already deleted (list name = TList)
+TreeAnalyzer::~TreeAnalyzer() Done
+Done
+Error in <THashList::Delete>: A list is accessing an object (0x3debf40) already deleted (list name = THashList)
+Error in <THashList::Delete>: A list is accessing an object (0x58fb140) already deleted (list name = THashList)
+Error in <TCling::LoadPCM>: ROOT PCM /home/rkomuda/CMS/Phase2/RootAnalysis/build/lib/libOMTFObjects_rdict.pcm file does not exist
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libASImageGui_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libASImage_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libEG_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libEve_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libFFTW_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libFITSIO_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libFitPanel_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libFumili_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libGX11TTF_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libGX11_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libGdml_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libGed_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libGenVector_G__GenVector32_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libGenVector_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libGenetic_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libGeomBuilder_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libGeomPainter_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libGeom_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libGpad_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libGraf3d_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libGuiBld_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libGuiHtml_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libGui_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libGviz3d_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libHbook_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libHistFactory_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libHistPainter_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libHtml_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libMLP_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libMathMore_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libNetxNG_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libOracle_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libPhysics_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libPostscript_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libProofBench_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libProofDraw_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libProofPlayer_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libProof_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libPyMVA_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libQuadp_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libRCsg_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libRDAVIX_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libRGL_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libRHTTPSniff_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libRHTTP_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libRMySQL_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libROOTBrowsable_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libROOTBrowserv7_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libROOTDataFrame_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libROOTEve_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libROOTFitPanelv7_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libROOTGpadv7_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libROOTGraphicsPrimitives_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libROOTHistDraw_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libROOTHist_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libROOTTMVASofieParser_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libROOTTMVASofie_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libROOTTPython_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libROOTWebDisplay_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libRSQLite_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libRecorder_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libRooFitCore_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libRooFitHS3_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libRooFitMore_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libRooFitRDataFrameHelpers_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libRooFit_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libRooStats_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libRootAuth_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libSPlot_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libSQLIO_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libSessionViewer_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libSpectrumPainter_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libSpectrum_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libTMVAGui_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libTMVA_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libTreePlayer_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libTreeViewer_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libTree_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libUnfold_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libUnuran_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libWebGui6_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libX3d_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libXMLIO_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib/libXMLParser_rdict.pcm
+
+
+[1mRooFit v3.60 -- Developed by Wouter Verkerke and David Kirkby[0m 
+                Copyright (C) 2000-2013 NIKHEF, University of California & Stanford University
+                All rights reserved, please read http://roofit.sourceforge.net/license.txt
+
+Start
+Reading files: 
+/home/rkomuda/CMS/Phase2/analysis_GMT/omtfTree3M.root
+Warning in <TClass::Init>: no dictionary for class MuonObjColl is available
+Warning in <TClass::Init>: no dictionary for class MuonObj is available
+Warning in <TClass::Init>: no dictionary for class TrackObj is available
+Warning in <TClass::Init>: no dictionary for class TriggerMenuResultObj is available
+Warning in <TClass::Init>: no dictionary for class SynchroCountsObjVect is available
+Warning in <TClass::Init>: no dictionary for class SynchroCountsObj is available
+Error in <TList::Clear>: A list is accessing an object (0x436b8e0) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x44bfa50) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x44bfe80) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x44cbb50) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x44cbec0) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x44cc330) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x44cc7d0) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x44ccba0) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x44cd040) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x44cd270) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x44f3ba0) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x44fd520) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x44fdf10) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x44fe370) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x44ff3b0) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x450d770) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x450e5b0) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x450eb00) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x450ee30) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x450f680) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x450fac0) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x4510cd0) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x45112f0) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x4511730) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x4512460) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x4512a40) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x45139e0) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x4513f50) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x4514420) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x4514d10) already deleted (list name = TList)
+Error in <THashList::Delete>: A list is accessing an object (0x3ed23c0) already deleted (list name = THashList)
+Error in <TChain::SetBranchAddress>: unknown branch -> hits
+Error in <TChain::SetBranchAddress>: unknown branch -> hitsQuality
+Error in <THashList::Delete>: A list is accessing an object (0x5fdc170) already deleted (list name = THashList)
+Error in <TChain::SetBranchAddress>: unknown branch -> hits
+Error in <TChain::SetBranchAddress>: unknown branch -> hitsQuality
+Events total: 3988000
+Events analyzed: 0/3988000 (0) thread: 0
+Events analyzed: 1/3988000 (2.50752e-07) thread: 0
+Events analyzed: 2/3988000 (5.01505e-07) thread: 0
+Events analyzed: 3/3988000 (7.52257e-07) thread: 0
+Events analyzed: 4/3988000 (1.00301e-06) thread: 0
+Events analyzed: 5/3988000 (1.25376e-06) thread: 0
+Events analyzed: 6/3988000 (1.50451e-06) thread: 0
+Events analyzed: 7/3988000 (1.75527e-06) thread: 0
+Events analyzed: 8/3988000 (2.00602e-06) thread: 0
+Events analyzed: 9/3988000 (2.25677e-06) thread: 0
+Events analyzed: 398800/3988000 (0.1) thread: 0
+Events analyzed: 797600/3988000 (0.2) thread: 0
+Events analyzed: 1196400/3988000 (0.3) thread: 0
+Events analyzed: 1595200/3988000 (0.4) thread: 0
+Events analyzed: 1994000/3988000 (0.5) thread: 0
+Events analyzed: 2392800/3988000 (0.6) thread: 0
+Events analyzed: 2791600/3988000 (0.7) thread: 0
+Events analyzed: 3190400/3988000 (0.8) thread: 0
+Events analyzed: 3589200/3988000 (0.9) thread: 0
+1D histogram size: 7
+2D histogram size: 1271
+3D histogram size: 0
+TProfile size: 0
+Define l1RpcStyle.....done
+Info in <TCanvas::Print>: eps file fig_eps/OMTFVsMasked_22_PhiVx.eps has been created
+Info in <TCanvas::Print>: png file fig_png/OMTFVsMasked_22_PhiVx.png has been created
+Info in <TCanvas::Print>: eps file fig_eps/OMTFVsMasked_22_PhiVx_log.eps has been created
+Info in <TCanvas::Print>: png file fig_png/OMTFVsMasked_22_PhiVx_log.png has been created
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: OMTFVsOther_22
+Info in <TCanvas::Print>: eps file fig_eps/OMTFVsMasked_22_EtaVx.eps has been created
+Info in <TCanvas::Print>: png file fig_png/OMTFVsMasked_22_EtaVx.png has been created
+Info in <TCanvas::Print>: eps file fig_eps/OMTFVsMasked_22_EtaVx_log.eps has been created
+Info in <TCanvas::Print>: png file fig_png/OMTFVsMasked_22_EtaVx_log.png has been created
+Info in <TCanvas::Print>: png file fig_png/PanelVsPt_OMTF.png has been created
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: EffVsPt_OMTF
+Info in <TCanvas::Print>: png file fig_png/PanelVsHighPt_OMTF.png has been created
+Info in <TCanvas::Print>: eps file fig_eps/EffVsEtaVx_OMTF.eps has been created
+Info in <TCanvas::Print>: png file fig_png/EffVsEtaVx_OMTF.png has been created
+Info in <TCanvas::Print>: eps file fig_eps/EffVsPhiVx_OMTF.eps has been created
+Info in <TCanvas::Print>: png file fig_png/EffVsPhiVx_OMTF.png has been created
+Info in <TEfficiency::TEfficiency>: given histograms are filled with weights
+Info in <TROOT::TEfficiency::SetUseWeightedEvents>: Handle weighted events for computing efficiency
+Warning in <TEfficiency::GetEfficiencyErrorLow>: frequentist confidence intervals for weights are only supported by the normal approximation
+Info in <TEfficiency::GetEfficiencyErrorLow>: setting statistic option to kFNormal
+Info in <TCanvas::Print>: png file fig_png/EffVsEta_OMTF.png has been created
+Info in <TCanvas::SaveSource>: C++ Macro file: fig_png/EffVsEta_OMTF.C has been generated
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: OMTFVsOther_22
+ERROR: Histogram: h2DMaskedType0OMTF22 not found in thread: 0
+ERROR: Histogram: h2DMaskedType0OMTF26 not found in thread: 0
+Info in <TCanvas::Print>: png file fig_png/PanelVsPt_Masked.png has been created
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: EffVsPt_Masked
+Info in <TCanvas::Print>: png file fig_png/PanelVsHighPt_Masked.png has been created
+Info in <TCanvas::Print>: eps file fig_eps/EffVsEtaVx_Masked.eps has been created
+Info in <TCanvas::Print>: png file fig_png/EffVsEtaVx_Masked.png has been created
+Info in <TCanvas::Print>: eps file fig_eps/EffVsPhiVx_Masked.eps has been created
+Info in <TCanvas::Print>: png file fig_png/EffVsPhiVx_Masked.png has been created
+Info in <TEfficiency::TEfficiency>: given histograms are filled with weights
+Info in <TROOT::TEfficiency::SetUseWeightedEvents>: Handle weighted events for computing efficiency
+Warning in <TEfficiency::GetEfficiencyErrorLow>: frequentist confidence intervals for weights are only supported by the normal approximation
+Info in <TEfficiency::GetEfficiencyErrorLow>: setting statistic option to kFNormal
+Info in <TCanvas::Print>: png file fig_png/EffVsEta_Masked.png has been created
+Info in <TCanvas::SaveSource>: C++ Macro file: fig_png/EffVsEta_Masked.C has been generated
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: OMTFVsOther_22
+ERROR: Histogram: h2DLUTType0OMTF22 not found in thread: 0
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: OMTFVsOther_26
+ERROR: Histogram: h2DLUTType0OMTF26 not found in thread: 0
+Info in <TCanvas::Print>: png file fig_png/PanelVsPt_LUT.png has been created
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: EffVsPt_LUT
+Info in <TCanvas::Print>: png file fig_png/PanelVsHighPt_LUT.png has been created
+Info in <TCanvas::Print>: eps file fig_eps/EffVsEtaVx_LUT.eps has been created
+Info in <TCanvas::Print>: png file fig_png/EffVsEtaVx_LUT.png has been created
+Info in <TCanvas::Print>: eps file fig_eps/EffVsPhiVx_LUT.eps has been created
+Info in <TCanvas::Print>: png file fig_png/EffVsPhiVx_LUT.png has been created
+Info in <TEfficiency::TEfficiency>: given histograms are filled with weights
+Info in <TROOT::TEfficiency::SetUseWeightedEvents>: Handle weighted events for computing efficiency
+Warning in <TEfficiency::GetEfficiencyErrorLow>: frequentist confidence intervals for weights are only supported by the normal approximation
+Info in <TEfficiency::GetEfficiencyErrorLow>: setting statistic option to kFNormal
+Info in <TCanvas::Print>: png file fig_png/EffVsEta_LUT.png has been created
+Info in <TCanvas::SaveSource>: C++ Macro file: fig_png/EffVsEta_LUT.C has been generated
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: OMTFVsOther_22
+ERROR: Histogram: h2DNNType0OMTF22 not found in thread: 0
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: OMTFVsOther_26
+ERROR: Histogram: h2DNNType0OMTF26 not found in thread: 0
+Info in <TCanvas::Print>: png file fig_png/PanelVsPt_NN.png has been created
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: EffVsPt_NN
+Info in <TCanvas::Print>: png file fig_png/PanelVsHighPt_NN.png has been created
+Info in <TCanvas::Print>: eps file fig_eps/EffVsEtaVx_NN.eps has been created
+Info in <TCanvas::Print>: png file fig_png/EffVsEtaVx_NN.png has been created
+Info in <TCanvas::Print>: eps file fig_eps/EffVsPhiVx_NN.eps has been created
+Info in <TCanvas::Print>: png file fig_png/EffVsPhiVx_NN.png has been created
+Info in <TEfficiency::TEfficiency>: given histograms are filled with weights
+Info in <TROOT::TEfficiency::SetUseWeightedEvents>: Handle weighted events for computing efficiency
+Warning in <TEfficiency::GetEfficiencyErrorLow>: frequentist confidence intervals for weights are only supported by the normal approximation
+Info in <TEfficiency::GetEfficiencyErrorLow>: setting statistic option to kFNormal
+Info in <TCanvas::Print>: png file fig_png/EffVsEta_NN.png has been created
+Info in <TCanvas::SaveSource>: C++ Macro file: fig_png/EffVsEta_NN.C has been generated
+Rate [kHz] OMTF CMSSW default @ 22 GeV 2.67416
+Rate [kHz] Masked @ 22 GeV 1.76288
+Info in <TCanvas::Print>: eps file fig_eps/RateTot.eps has been created
+Info in <TCanvas::Print>: png file fig_png/RateTot.png has been created
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: cRate
+Info in <TCanvas::Print>: eps file fig_eps/RateVsEta.eps has been created
+Info in <TCanvas::Print>: png file fig_png/RateVsEta.png has been created
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: cRate
+Info in <TCanvas::Print>: eps file fig_eps/RateVsPt.eps has been created
+Info in <TCanvas::Print>: png file fig_png/RateVsPt.png has been created
+Info in <TCanvas::Print>: png file fig_png/PanelVsPt_RKeff_26.0.png has been created
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: EffVsPt_RKeff
+Info in <TCanvas::Print>: png file fig_png/PanelVsPt_RKeff_20.0.png has been created
+Analysed events: 3988000 
+RealTime=2410.459687 seconds, CpuTime=2403.480000 seconds
+1654.46 events / RealTime second .
+1659.26 events / CpuTime second .
+TreeAnalyzer::~TreeAnalyzer() Begin
+Error in <TList::Clear>: A list is accessing an object (0x44cc330) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x44cc7d0) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x44ccba0) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x44cd040) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x44cd270) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x44f3ba0) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x44fd520) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x44fdf10) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x44fe370) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x44ff3b0) already deleted (list name = TList)
+TreeAnalyzer::~TreeAnalyzer() Done
+Done
+Error in <THashList::Delete>: A list is accessing an object (0x5781b00) already deleted (list name = THashList)
+Error in <THashList::Delete>: A list is accessing an object (0x5fbb890) already deleted (list name = THashList)

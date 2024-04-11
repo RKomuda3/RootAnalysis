@@ -12,10 +12,12 @@
 #include "TRandom3.h"
 #include "TGaxis.h"
 #include "TEfficiency.h"
+#include "TMath.h"
+#include "TPaveText.h"
 
 #include "utilsL1RpcStyle.h"
 
-const std::vector<std::string> OMTFHistograms::algos = {"OMTF", "Masked"};  
+const std::vector<std::string> OMTFHistograms::algos = {"OMTF", "Masked","LUT","NN"};  
 const std::vector<double> OMTFHistograms::ptBins = {1., 4, 4.5, 5, 5.5, 6, 6.5, 7, 8.5, 10, 
                                                     12, 14, 16, 18.5, 20, 21, 22, 26, 28, 30, 32, 
                                                     36, 40, 48, 54, 60, 70, 82, 96, 114, 200, 99999};
@@ -133,10 +135,12 @@ void OMTFHistograms::finalizeHistograms(){
     //plotEffVsVar(anAlgo,"dz");
     plotEffVsEta(anAlgo);
   }
-  plotRate("Tot");
-  plotRate("VsEta");
-  plotRate("VsPt");
-   
+  plotRate("Tot",0);
+  plotRate("Tot",1);
+  // plotRate("VsEta");
+  // plotRate("VsPt");
+   plotEffRK("RKeff","Pt",26);
+   plotEffRK("RKeff","Pt",20);
   //plotSingleHistogram("h2DOMTFPtRecVsPtGen");
   //plotSingleHistogram("h2DLUTPtRecVsPtGen");
   //plotSingleHistogram("h2DNNPtRecVsPtGen");
@@ -205,6 +209,65 @@ void OMTFHistograms::plotEffPanel(const std::string & sysType, const std::string
   l.Draw();
   c->Print(TString::Format("fig_png/PanelVs%s_%s.png",varName.c_str(),sysType.c_str()).Data());
 }
+void OMTFHistograms::plotEffRK(const std::string & sysType, const std::string & varName, float ptCut1){
+
+  TCanvas* c = new TCanvas(TString::Format("EffVsPt_%s",sysType.c_str()),
+			   TString::Format("EffVsPt_%s",sysType.c_str()),
+			   460,500);
+	c->SetGrid(0,1);
+
+  
+
+  TLegend l(0.6513158,0.1673729,0.8903509,0.470339,NULL,"brNDC");  
+  l.SetTextSize(0.05);
+  l.SetFillStyle(4000);
+  l.SetBorderSize(0);
+  l.SetFillColor(10);
+  
+  TH1F hFrame("hFrame","",1,0,5000);    
+  hFrame.SetStats(kFALSE);
+  hFrame.SetMinimum(0.0001);
+  hFrame.SetMaximum(1.04);
+  hFrame.SetXTitle("gen. muon p_{T} [GeV/c]");
+  hFrame.SetYTitle("Efficiency");
+  hFrame.Draw();
+  int i=1;
+  std::string hName(""); 
+  for (auto & anAlgo : algos){
+    float ptCut = ptCut1;
+    hName = "h2D"+anAlgo+varName+std::to_string((int)ptCut);
+    TEfficiency *hEff = getEfficiency(hName);
+    if(!hEff) return;
+    if(anAlgo=="Masked") continue;
+    TH2F* h2D = this->get2DHistogram(hName);
+    if(!h2D) return;
+    hFrame.GetXaxis()->Set(1, h2D->GetXaxis()->GetXmin(), h2D->GetXaxis()->GetXmax());
+    if(varName=="dxy") hFrame.SetXTitle("d_{xy} [cm]");
+    else if(varName=="dz") hFrame.SetXTitle("d_{z} [cm]");
+
+    hEff->SetMarkerStyle(21+i);
+    hEff->SetMarkerColor(color[i]);
+    hEff->Draw("same P");  
+    
+    TString nameCut = anAlgo;
+    if(anAlgo=="NN") nameCut="TF";
+    //if (iCut==0) nameCut = "no p_{T} cut";
+    l.AddEntry(hEff,nameCut.Data(),"lp");
+    i++;
+  }
+  l.Draw();
+  TString textString = TString::Format("p_{T} cut %.1f GeV", ptCut1);
+  TPaveText *text = new TPaveText(0.1, 0.91, 0.5, 0.96, "NDC");
+  text->AddText(textString);
+  text->SetFillColor(0);
+  text->SetTextAlign(12);
+  text->SetTextColor(kBlack); 
+  text->SetTextSize(0.04); 
+  text->Draw();
+  
+ TString filePath = TString::Format("fig_png/PanelVs%s_%s_%.1f.png", varName.c_str(), sysType.c_str(), ptCut1);
+ c->Print(filePath.Data());
+}
 ////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////
 void OMTFHistograms::plotEffVsVar(const std::string & sysType,
@@ -252,6 +315,7 @@ void OMTFHistograms::plotEffVsVar(const std::string & sysType,
 }
 ////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////
+
 void OMTFHistograms::plotEffVsEta(const std::string & sysType){
 
   TCanvas* c = new TCanvas(TString::Format("EffVsEta_%s",sysType.c_str()),
@@ -348,6 +412,14 @@ void OMTFHistograms::plotEffType1VsType2(int iPtCut,
   hEffType2->SetMarkerStyle(21);
   hEffType2->SetMarkerColor(1);
   if(!hEffType2) return;
+
+    std::string LUT="LUT";
+    hName = "h2D"+LUT+"Type0"+varName+std::to_string((int)ptCut);
+
+  TEfficiency *hEffType3 = getEfficiency(hName);
+  hEffType3->SetMarkerStyle(20);
+  hEffType3->SetMarkerColor(3);
+  if(!hEffType3) return;
   
   double minX = 0;
   double maxX = 50;
@@ -371,6 +443,7 @@ void OMTFHistograms::plotEffType1VsType2(int iPtCut,
   
   hEffType2->Draw("same P");
   hEffType1->Draw("same P");
+  hEffType3->Draw("same P");
     
   std::string tmp = "p_{T} #geq ";
   if(int(ptCut*10)%10==5) tmp += "%1.1f GeV/c";
@@ -379,6 +452,7 @@ void OMTFHistograms::plotEffType1VsType2(int iPtCut,
   l.AddEntry((TObject*)0, "", "");
   l.AddEntry(hEffType1, sysType1.c_str(), "lp");
   l.AddEntry(hEffType2, sysType2.c_str(), "lp");
+  l.AddEntry(hEffType3, "LUT", "lp");
   l.DrawClone();
 
   TLine aLine(0,0,0,0);
@@ -395,7 +469,7 @@ void OMTFHistograms::plotEffType1VsType2(int iPtCut,
 }
 ////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////
-TH2F* OMTFHistograms::makeRateWeights(TH2 *hOrig, const std::string & selFlavour){
+TH2F* OMTFHistograms::makeRateWeights(TH2 *hOrig, const std::string & selFlavour,bool norm_type){
 
   TH2F *hWeights = (TH2F*)hOrig->Clone("hWeights");
   hWeights->Reset();
@@ -404,13 +478,17 @@ TH2F* OMTFHistograms::makeRateWeights(TH2 *hOrig, const std::string & selFlavour
   double binWidth = hPtGen->GetXaxis()->GetBinWidth(1);
 
   int nEvInBin;
-  float ptLow, ptHigh, weight;
-
+  float ptLow, ptHigh, weight,weightNEW;
+ // double xxx=[0]*TMath::Exp(x,-(TMath::Log(x)-[1])*(TMath::Log(x)-[1])/(2*[2]*[2]))*[3]
   //Taken from https://cmssdt.cern.ch/lxr/source/Validation/MuonRPCGeometry/test/RPCHistos.cc line 139
   //Scaling factor, par[0] set to reproduce OMTF rate with the 367833 run
   //this run had 2345 bunches, so the rate is scaled to 2760 bunches
-  TF1 *fIntVxMuRate = new TF1("fIntVxMuRate","[0]*TMath::Power(x,[1]*TMath::Log(x))*TMath::Power(x,[2])*TMath::Exp([3])",1,1000);
-  fIntVxMuRate->SetParameters(2.080479*(2760.0/2345)/2165.46, -0.235801, -2.82346, 17.162);
+    TF1 *fIntVxMuRate1 = new TF1("fIntVxMuRate1","[0]*exp((-(TMath::Log10(x)-[1])*(TMath::Log10(x)-[1]))/(2*[2]*[2]))*[3]",1,1000);
+    fIntVxMuRate1->SetParameters(2*1.3084E3, -0.725, 0.4333,2.0);
+
+
+    TF1 *fIntVxMuRate = new TF1("fIntVxMuRate","[0]*TMath::Power(x,[1]*TMath::Log(x))*TMath::Power(x,[2])*TMath::Exp([3])",1,1000);
+    fIntVxMuRate->SetParameters(2.080479*(2760.0/2345)/2165.46, -0.235801, -2.82346, 17.162);
   //fIntVxMuRate->SetParameters(1.0, -0.235801, -2.82346, 17.162);
   ///Function parameters set to get a constant weight corresponding to the LHC rate
   if (selFlavour.find("NU_RATE")!=std::string::npos) fIntVxMuRate->SetParameters(-1.0, 0.0, 1.0, log(lhcRate/binWidth/nEvTotal/1E3));
@@ -421,8 +499,14 @@ TH2F* OMTFHistograms::makeRateWeights(TH2 *hOrig, const std::string & selFlavour
     nEvInBin = hPtGen->GetBinContent(iBin);
     if(nEvInBin<1) nEvInBin = 1;
     if(selFlavour.find("NU_RATE")!=std::string::npos) nEvInBin = 1; 
-    weight = (fIntVxMuRate->Eval(ptLow) - fIntVxMuRate->Eval(ptHigh))/nEvInBin;
-    for (int iBinY = 0; iBinY<=hOrig->GetNbinsY()+1;++iBinY) hWeights->SetBinContent(iBin,iBinY,weight);
+    weight = (fIntVxMuRate->Eval(ptLow)-fIntVxMuRate->Eval(ptHigh))/(nEvInBin);
+    weightNEW=(fIntVxMuRate1->Eval(ptLow+(ptHigh-ptLow)/2))/(nEvInBin);
+    //std::cout<<"weight:  "<<weight<<"  weightNEW: "<<weight1<<std::endl;
+    for (int iBinY = 0; iBinY<=hOrig->GetNbinsY()+1;++iBinY){ 
+      
+       if(norm_type==0) hWeights->SetBinContent(iBin,iBinY,weight);
+       if(norm_type==1) hWeights->SetBinContent(iBin,iBinY,weightNEW);
+      }
   }
 
   delete fIntVxMuRate;
@@ -431,7 +515,7 @@ TH2F* OMTFHistograms::makeRateWeights(TH2 *hOrig, const std::string & selFlavour
 ////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////
 TH1* OMTFHistograms::getRateHisto(std::string sysType,
-				 std::string type){
+				 std::string type,bool norm_type){
 
   std::string hName = "h2D"+sysType+"Rate"+type;
 
@@ -440,8 +524,8 @@ TH1* OMTFHistograms::getRateHisto(std::string sysType,
   TH2F* h2D = (TH2F*)h2D_original->Clone("h2D");
   if(!h2D) return 0;
 
-  TH2F *hWeights = makeRateWeights(h2D, selectionFlavours_[0]);
-
+  TH2F *hWeights = makeRateWeights(h2D, selectionFlavours_[0],norm_type);
+  
   h2D->Multiply(hWeights);
   TH1D *hRate = h2D->ProjectionY(("hRate"+sysType).c_str());
   if(sysType=="Vx") hRate = h2D->ProjectionX("hRate");
@@ -455,12 +539,13 @@ TH1* OMTFHistograms::getRateHisto(std::string sysType,
 }
 ////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////
-void OMTFHistograms::plotRate(std::string type){
+void OMTFHistograms::plotRate(std::string type, bool norm_type){
   
-  TH1 *hRateVx = getRateHisto("Vx",type);
-  TH1 *hRateOMTF = getRateHisto("OMTF",type);
-  TH1 *hRateNN = getRateHisto("Masked",type);
-  TH1 *hRateLUT = getRateHisto("Masked",type);
+  TH1 *hRateVx = getRateHisto("Vx",type,norm_type);
+  //TH1 *hRateVxNEW = getRateHisto("Vx",type,norm_type);
+  TH1 *hRateOMTF = getRateHisto("OMTF",type,norm_type);
+  TH1 *hRateNN = getRateHisto("NN",type,norm_type);
+  TH1 *hRateLUT = getRateHisto("LUT",type,norm_type);
   
   if(!hRateVx || !hRateOMTF || !hRateNN || !hRateLUT) return;
 
@@ -468,11 +553,13 @@ void OMTFHistograms::plotRate(std::string type){
   float ptCut = OMTFHistograms::ptBins.at(iPtCut);
 
   hRateVx->SetLineWidth(3);
+  // hRateVxNEW->SetLineWidth(3);
   hRateOMTF->SetLineWidth(3);
   hRateNN->SetLineWidth(3);
   hRateLUT->SetLineWidth(3);
 
   hRateVx->SetLineColor(1);
+  // hRateVxNEW->SetLineColor(2);
   hRateOMTF->SetLineColor(4);
   hRateNN->SetLineColor(2);
   hRateLUT->SetLineColor(kYellow+4);
@@ -492,9 +579,13 @@ void OMTFHistograms::plotRate(std::string type){
 
   if(type.find("Tot")!=std::string::npos){
     hRateVx->GetXaxis()->SetRangeUser(-1,60);
+    //hRateVxNEW->GetXaxis()->SetRangeUser(-1,60);
+    hRateOMTF->GetXaxis()->SetRangeUser(-1,60);
     hRateNN->GetXaxis()->SetRangeUser(-1,60);
+    hRateOMTF->SetMinimum(8E-1);
+    hRateOMTF->SetMaximum(1.5E3);
     hRateVx->SetMinimum(8E-1);
-    hRateVx->SetMaximum(1.5E3);
+    hRateVx->SetMaximum(5E4);
     
     c->Divide(2);
     TPad *pad1 = (TPad*)c->GetPad(1);
@@ -515,17 +606,17 @@ void OMTFHistograms::plotRate(std::string type){
     hRateVx->Draw();
     hRateOMTF->DrawCopy("same");
     hRateNN->DrawCopy("same");
-    //hRateLUT->DrawCopy("same");
+    hRateLUT->DrawCopy("same");
     
     std::cout<<"Rate [kHz] OMTF CMSSW default @ "<<ptCut<<" GeV "<< hRateOMTF->GetBinContent(hRateOMTF->FindBin(ptCut))<<std::endl;
     std::cout<<"Rate [kHz] Masked @ "<<ptCut<<" GeV "<< hRateNN->GetBinContent(hRateNN->FindBin(ptCut))<<std::endl;
    
     c->cd();
-    pad2->Draw();
+    //pad2->Draw();
     pad2->cd();
 
     hRateNN->SetXTitle("p_{T}^{cut} [GeV/c]");
-    hRateNN->SetYTitle("masked/default");
+    hRateNN->SetYTitle("TF or LUT/default");
     hRateNN->GetXaxis()->SetLabelSize(0.1);
     hRateNN->GetXaxis()->SetTitleSize(0.1);
     hRateNN->GetYaxis()->SetLabelSize(0.1);
@@ -551,7 +642,7 @@ void OMTFHistograms::plotRate(std::string type){
     max = std::max(max, hRateLUT->GetMaximum());
     hRateNN->SetMaximum(1.5*max);
     hRateNN->Draw();
-    //hRateLUT->Draw("same");
+    hRateLUT->Draw("same");
     hRateOMTF->Draw("same");
     leg->SetHeader(TString::Format("p_{T}^{cut} = %d  GeV/c", int(ptCut)).Data());
   }
@@ -563,18 +654,25 @@ void OMTFHistograms::plotRate(std::string type){
     max = std::max(max, hRateLUT->GetMaximum());
     hRateNN->SetMaximum(1.2*max);
     hRateNN->Draw();
-    //hRateLUT->Draw("same");
+    hRateLUT->Draw("same");
     hRateOMTF->Draw("same");
     leg->SetHeader(TString::Format("p_{T}^{cut} = %d  GeV/c",int(ptCut)).Data());
   }
- 
+  //leg->AddEntry(hRateVx," Old norm.");
+  //leg->AddEntry(hRateVxNEW," New norm.");
   leg->AddEntry(hRateOMTF,"OMTF");
-  leg->AddEntry(hRateNN,"Masked DT's");
-  //leg->AddEntry(hRateLUT,"LUT NN");
+  leg->AddEntry(hRateNN,"TF NN");
+  leg->AddEntry(hRateLUT,"LUT NN");
   leg->Draw();
 
-  c->Print(("fig_eps/Rate"+type+".eps").c_str());
-  c->Print(("fig_png/Rate"+type+".png").c_str());  
+  if(norm_type==0){
+  c->Print(("fig_eps/Rate"+type+"_0.eps").c_str());
+  c->Print(("fig_png/Rate"+type+"_0.png").c_str());  
+  }
+  else{
+  c->Print(("fig_eps/Rate"+type+"_1.eps").c_str());
+  c->Print(("fig_png/Rate"+type+"_1.png").c_str());  
+  }
 }
 ////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////
