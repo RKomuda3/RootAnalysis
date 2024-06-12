@@ -60,10 +60,10 @@ RM = /cvmfs/sft.cern.ch/lcg/releases/CMake/3.20.0-790a8/x86_64-centos8-gcc11-opt
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rkomuda/CMS/Phase2/RootAnalysis
+CMAKE_SOURCE_DIR = /scratch/rkomuda/CMS13/Phase2/RootAnalysis
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rkomuda/CMS/Phase2/RootAnalysis/build
+CMAKE_BINARY_DIR = /scratch/rkomuda/CMS13/Phase2/RootAnalysis/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,9 +135,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rkomuda/CMS/Phase2/RootAnalysis/build/CMakeFiles /home/rkomuda/CMS/Phase2/RootAnalysis/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /scratch/rkomuda/CMS13/Phase2/RootAnalysis/build/CMakeFiles /scratch/rkomuda/CMS13/Phase2/RootAnalysis/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rkomuda/CMS/Phase2/RootAnalysis/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /scratch/rkomuda/CMS13/Phase2/RootAnalysis/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

@@ -1,8 +1,8 @@
-# Install script for directory: /home/rkomuda/CMS/Phase2/RootAnalysis
+# Install script for directory: /scratch/rkomuda/CMS13/Phase2/RootAnalysis
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/rkomuda/CMS/Phase2/RootAnalysis/build")
+  set(CMAKE_INSTALL_PREFIX "/scratch/rkomuda/CMS13/Phase2/RootAnalysis/build")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,8 +44,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/rkomuda/CMS/Phase2/RootAnalysis/build/Core/src/cmake_install.cmake")
-  include("/home/rkomuda/CMS/Phase2/RootAnalysis/build/OMTF/cmake_install.cmake")
+  include("/scratch/rkomuda/CMS13/Phase2/RootAnalysis/build/Core/src/cmake_install.cmake")
+  include("/scratch/rkomuda/CMS13/Phase2/RootAnalysis/build/OMTF/cmake_install.cmake")
 
 endif()
 
@@ -57,5 +57,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/rkomuda/CMS/Phase2/RootAnalysis/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/scratch/rkomuda/CMS13/Phase2/RootAnalysis/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

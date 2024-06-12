@@ -4,7 +4,7 @@
 # compile CXX with /cvmfs/sft.cern.ch/lcg/releases/gcc/11.2.0-8a51a/x86_64-centos8/bin/g++
 CXX_DEFINES = -DBOOST_REGEX_DYN_LINK -DBOOST_REGEX_NO_LIB
 
-CXX_INCLUDES = -I/cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/include -I/home/rkomuda/CMS/Phase2/RootAnalysis/OMTF/Analysis/src/../include -I/home/rkomuda/CMS/Phase2/RootAnalysis/Core/include -I/home/rkomuda/CMS/Phase2/RootAnalysis/OMTF/DataFormats/include
+CXX_INCLUDES = -I/cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/include -I/scratch/rkomuda/CMS13/Phase2/RootAnalysis/OMTF/Analysis/src/../include -I/scratch/rkomuda/CMS13/Phase2/RootAnalysis/Core/include -I/scratch/rkomuda/CMS13/Phase2/RootAnalysis/OMTF/DataFormats/include
 
 CXX_FLAGS =  -std=c++17 -pipe -fsigned-char -pthread -Wall -Werror -O3 -std=c++17 -fopenmp
 

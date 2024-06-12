@@ -1,8 +1,8 @@
-# Install script for directory: /home/rkomuda/CMS/Phase2/RootAnalysis/Core/src
+# Install script for directory: /scratch/rkomuda/CMS13/Phase2/RootAnalysis/Core/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/rkomuda/CMS/Phase2/RootAnalysis/build")
+  set(CMAKE_INSTALL_PREFIX "/scratch/rkomuda/CMS13/Phase2/RootAnalysis/build")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -47,15 +47,15 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libFrameworkCore.so")
     file(RPATH_CHECK
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libFrameworkCore.so"
-         RPATH "/home/rkomuda/CMS/Phase2/RootAnalysis/build/lib:/cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib")
+         RPATH "/scratch/rkomuda/CMS13/Phase2/RootAnalysis/build/lib:/cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/rkomuda/CMS/Phase2/RootAnalysis/build/Core/src/libFrameworkCore.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/scratch/rkomuda/CMS13/Phase2/RootAnalysis/build/Core/src/libFrameworkCore.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libFrameworkCore.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libFrameworkCore.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libFrameworkCore.so"
-         OLD_RPATH "/cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib::::::::::::::::::::::::::::::::::::::::::::::::"
-         NEW_RPATH "/home/rkomuda/CMS/Phase2/RootAnalysis/build/lib:/cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib")
+         OLD_RPATH "/cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib:::::::::::::::::::::::::::::::::::::::::::::::::::::"
+         NEW_RPATH "/scratch/rkomuda/CMS13/Phase2/RootAnalysis/build/lib:/cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.37-355ed/x86_64-centos8/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libFrameworkCore.so")
     endif()

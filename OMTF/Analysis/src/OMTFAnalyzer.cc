@@ -97,7 +97,7 @@ bool OMTFAnalyzer::passQuality(const L1Obj & aL1Cand,
      else if(sysType=="NN")  qualitySelection &= aL1Cand.type==L1Obj::EMTF;
      else if(sysType=="LUT") qualitySelection = aL1Cand.q>=8 && aL1Cand.bx==0 && aL1Cand.type==L1Obj::BMTF;
      else if(sysType.find("Vx")!=std::string::npos) qualitySelection = true;
-
+  
   return qualitySelection;
 }
 //////////////////////////////////////////////////////////////////////////////
@@ -189,7 +189,7 @@ void OMTFAnalyzer::fillRateHisto(const std::string & sysType,
 //////////////////////////////////////////////////////////////////////////////
 void OMTFAnalyzer::fillRateHistos(){
 
-  if(name()=="NU_RATEAnalyzer" && myGenObj.pt()>0.0) return;
+  //if(name()=="NU_RATEAnalyzer" && myGenObj.pt()>0.0) return;
 
   for(auto & anAlgo : OMTFHistograms::algos){    
     fillRateHisto(anAlgo,"Tot");
@@ -199,6 +199,7 @@ void OMTFAnalyzer::fillRateHistos(){
   fillRateHisto("Vx","Tot");
   fillRateHisto("Vx","VsPt");
   fillRateHisto("Vx","VsEta");
+
 }
 //////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////
@@ -263,7 +264,9 @@ for (auto & aGenObj : genObjVec) {
     if (std::abs(aGenObj.pdgId()) == 13 && std::abs(aGenObj.status()) == 1) {
         myGenObj = aGenObj;
         fillHistosForGenMuon();
+        
     }
+    
   }
 
   fillRateHistos();

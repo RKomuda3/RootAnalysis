@@ -1,7 +1,7 @@
 OMTF/DataFormats/src/CMakeFiles/OMTFDataFormats.dir/GenObj.cc.o: \
- /home/rkomuda/CMS/Phase2/RootAnalysis/OMTF/DataFormats/src/GenObj.cc \
+ /scratch/rkomuda/CMS13/Phase2/RootAnalysis/OMTF/DataFormats/src/GenObj.cc \
  /usr/include/stdc-predef.h \
- /home/rkomuda/CMS/Phase2/RootAnalysis/OMTF/DataFormats/src/../include/GenObj.h \
+ /scratch/rkomuda/CMS13/Phase2/RootAnalysis/OMTF/DataFormats/src/../include/GenObj.h \
  /cvmfs/sft.cern.ch/lcg/releases/gcc/11.2.0-8a51a/x86_64-centos8/include/c++/11.2.0/ostream \
  /cvmfs/sft.cern.ch/lcg/releases/gcc/11.2.0-8a51a/x86_64-centos8/include/c++/11.2.0/ios \
  /cvmfs/sft.cern.ch/lcg/releases/gcc/11.2.0-8a51a/x86_64-centos8/include/c++/11.2.0/iosfwd \

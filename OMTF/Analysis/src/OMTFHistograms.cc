@@ -495,6 +495,7 @@ TH2F* OMTFHistograms::makeRateWeights(TH2 *hOrig, const std::string & selFlavour
   //fIntVxMuRate->SetParameters(1.0, -0.235801, -2.82346, 17.162);
   ///Function parameters set to get a constant weight corresponding to the LHC rate
   if (selFlavour.find("NU_RATE")!=std::string::npos) fIntVxMuRate->SetParameters(-1.0, 0.0, 1.0, log(lhcRate/binWidth/nEvTotal/1E3));
+  
 
   for (int iBin = 0; iBin <= hPtGen->GetNbinsX()+1; ++iBin){
     ptLow = hPtGen->GetXaxis()->GetBinLowEdge(iBin);

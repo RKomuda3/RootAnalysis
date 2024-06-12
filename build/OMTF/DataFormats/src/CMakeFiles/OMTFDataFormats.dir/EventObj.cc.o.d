@@ -1,7 +1,7 @@
 OMTF/DataFormats/src/CMakeFiles/OMTFDataFormats.dir/EventObj.cc.o: \
- /home/rkomuda/CMS/Phase2/RootAnalysis/OMTF/DataFormats/src/EventObj.cc \
+ /scratch/rkomuda/CMS13/Phase2/RootAnalysis/OMTF/DataFormats/src/EventObj.cc \
  /usr/include/stdc-predef.h \
- /home/rkomuda/CMS/Phase2/RootAnalysis/OMTF/DataFormats/src/../include/EventObj.h \
+ /scratch/rkomuda/CMS13/Phase2/RootAnalysis/OMTF/DataFormats/src/../include/EventObj.h \
  /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/include/TObject.h \
  /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/include/Rtypes.h \
  /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.04-83598/x86_64-centos8-gcc11-opt/include/RtypesCore.h \
