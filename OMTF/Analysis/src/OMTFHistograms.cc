@@ -607,8 +607,8 @@ void OMTFHistograms::plotRate(std::string type, bool norm_type){
     pad1->cd();
     pad1->SetLogy();
     pad1->SetGrid(1,1);
-    hRateVx->Draw();
-    hRateOMTF->DrawCopy("same");
+    //hRateVx->Draw();
+    hRateOMTF->DrawCopy();
     hRateNN->DrawCopy("same");
     hRateLUT->DrawCopy("same");
     
